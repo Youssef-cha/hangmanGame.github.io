@@ -10,10 +10,10 @@ lettersArray.forEach(el => {
 });
 
 const words = {
-    programming:["php","javascript","go","scale","fortran","r","mysql","python"],
-    movies: ["Prestige","Inception","parasite","Interstellar","Whiplash","Memento","Coco","Up"],
-    people:["Albert Einstein","Hitchcock","Alexander","Cleopatra","Mahatma Gandhi"],
-    countries:["Syria","Palestine","Yemen","Egypt","Bahrain","Qatar"]
+    programming:["php","javascript","go","rust","mysql","python"],
+    movies: ["The Godfather","Shawshank Redemption","matrix","Star Wars","Whiplash","The Dark Knight","Titanic","Up"],
+    people:["Barack Obama","Elon Musk","Cristiano Ronaldo","Cleopatra","Jeff Bezos"],
+    cities:["New York","Paris","London","Tokyo","Rome","Dubai"]
 }
 
 let keys = Object.keys(words);
