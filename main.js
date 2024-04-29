@@ -109,7 +109,7 @@ document.addEventListener("click", (e) =>{
             document.getElementById("success").play()
             foundWords = 0
             spans.forEach(e =>{
-                if(!e.innerHTML == ""){
+                if(!e.innerHTML == "" || e.classList.contains("space")){
                     foundWords++
                 }
             })
